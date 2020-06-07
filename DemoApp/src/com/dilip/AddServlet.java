@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class AddServlet extends HttpServlet {
 	
 	
-	//Servlets accepts  both GET and POST requests 
+	//Servlets accepts  both GET and POST  requests  
 	public void doGet(HttpServletRequest req,HttpServletResponse resp) throws IOException
 	{
 	  int i=Integer.parseInt(req.getParameter("num1"));
